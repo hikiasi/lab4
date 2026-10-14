@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Технологии и студенческая жизнь — блог Волкова Ивана</title>
+<script src="tailwind.js"></script>
+</head>
+<body class="bg-slate-100 text-slate-800">
+
+<!-- Фиксированная строка браузера -->
+<div class="bg-slate-200 border-b border-slate-300 sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-4 py-2 flex items-center gap-3">
+    <div class="flex gap-1.5">
+      <span class="w-3 h-3 rounded-full bg-red-400"></span>
+      <span class="w-3 h-3 rounded-full bg-amber-400"></span>
+      <span class="w-3 h-3 rounded-full bg-emerald-400"></span>
+    </div>
+    <div class="flex-1 bg-white rounded-full px-4 py-1.5 text-sm text-slate-600 border border-slate-300 flex items-center gap-2">
+      <svg class="w-3.5 h-3.5 text-emerald-600" fill="currentColor" viewBox="0 0 16 16"><path d="M8 1a4 4 0 0 0-4 4v3H3a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1h-1V5a4 4 0 0 0-4-4zM6 5a2 2 0 1 1 4 0v3H6V5z"/></svg>
+      https://volkov-dev.github.io/blog/
+    </div>
+    <span class="text-xs text-slate-500 hidden sm:block">GitHub Pages · деплой через Vercel</span>
+  </div>
+</div>
+
+<header class="bg-white border-b border-slate-200">
+  <div class="max-w-4xl mx-auto px-6 py-10 text-center">
+    <p class="text-indigo-600 font-semibold tracking-widest uppercase text-xs">Статический блог на GitHub Pages</p>
+    <h1 class="text-3xl sm:text-4xl font-extrabold mt-2">Технологии и студенческая жизнь</h1>
+    <p class="text-slate-500 mt-3">Записки студента-программиста КГТУ: учёба, веб-разработка и жизнь в Калининграде</p>
+    <div class="mt-4 flex justify-center gap-3 text-xs">
+      <a href="#" class="bg-slate-900 text-white px-4 py-1.5 rounded-full font-semibold inline-flex items-center gap-1.5">
+        <svg class="w-3.5 h-3.5" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.5 7.5 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        volkov-dev/blog
+      </a>
+      <span class="bg-emerald-50 text-emerald-700 border border-emerald-200 px-4 py-1.5 rounded-full font-semibold">✓ deployed with Vercel</span>
+    </div>
+  </div>
+  <nav class="max-w-4xl mx-auto px-6 flex justify-center gap-8 pb-4 text-sm font-medium">
+    <a href="#" class="text-indigo-600 border-b-2 border-indigo-500 pb-1">Главная</a>
+    <a href="#" class="hover:text-indigo-600 pb-1">О блоге</a>
+    <a href="#" class="hover:text-indigo-600 pb-1">Учёба</a>
+    <a href="#" class="hover:text-indigo-600 pb-1">Код</a>
+    <a href="#" class="hover:text-indigo-600 pb-1">Контакты</a>
+  </nav>
+</header>
+
+<main class="max-w-4xl mx-auto px-6 py-10 grid lg:grid-cols-[1fr_260px] gap-10">
+
+  <div class="space-y-8">
+    <article class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+      <div class="h-40 bg-gradient-to-r from-sky-500 to-indigo-500 flex items-center justify-center text-5xl">🚀</div>
+      <div class="p-6">
+        <p class="text-xs text-slate-500 font-medium">Суббота, 29 августа 2026 г. • Код</p>
+        <h2 class="text-xl font-bold mt-1.5">Мой путь в веб-разработку</h2>
+        <p class="text-slate-600 mt-3 leading-relaxed">Всё началось с практики в Cibirland летом 2022 года: тогда я впервые увидел, как устроен «взрослый» веб-проект изнутри — реальные задачи, база данных и контроль версий…</p>
+        <div class="mt-4 flex items-center justify-between">
+          <a href="#" class="text-indigo-600 hover:text-indigo-700 font-semibold text-sm">Читать далее →</a>
+          <span class="text-xs text-slate-400">💬 4 комментария</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+      <div class="h-40 bg-gradient-to-r from-emerald-500 to-teal-500 flex items-center justify-center text-5xl">🎨</div>
+      <div class="p-6">
+        <p class="text-xs text-slate-500 font-medium">Понедельник, 24 августа 2026 г. • Код</p>
+        <h2 class="text-xl font-bold mt-1.5">Как я освоил HTML и CSS</h2>
+        <p class="text-slate-600 mt-3 leading-relaxed">Семестр практики — и вот уже вместо таблиц вёрстка строится на флексбоксах и грид-раскладках. Каскадные таблицы стилей оказались настоящим искусством…</p>
+        <div class="mt-4 flex items-center justify-between">
+          <a href="#" class="text-indigo-600 hover:text-indigo-700 font-semibold text-sm">Читать далее →</a>
+          <span class="text-xs text-slate-400">💬 2 комментария</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+      <div class="h-40 bg-gradient-to-r from-amber-400 to-orange-500 flex items-center justify-center text-5xl">🎓</div>
+      <div class="p-6">
+        <p class="text-xs text-slate-500 font-medium">Среда, 19 августа 2026 г. • Учёба</p>
+        <h2 class="text-xl font-bold mt-1.5">Учёба в КГТУ: будни студента-программиста</h2>
+        <p class="text-slate-600 mt-3 leading-relaxed">Пары по базам данных, лабораторные по веб-технологиям, собственные пет-проекты по вечерам — так проходят мои будни…</p>
+        <div class="mt-4 flex items-center justify-between">
+          <a href="#" class="text-indigo-600 hover:text-indigo-700 font-semibold text-sm">Читать далее →</a>
+          <span class="text-xs text-slate-400">💬 5 комментариев</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Комментарии -->
+    <section class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6">
+      <h3 class="font-bold text-lg">Комментарии к записи «Мой путь в веб-разработку»</h3>
+      <div class="mt-4 space-y-4">
+        <div class="flex gap-3">
+          <div class="w-9 h-9 rounded-full bg-sky-100 text-sky-700 flex items-center justify-center font-bold shrink-0">МК</div>
+          <div>
+            <p class="text-sm"><b>Мария К.</b> <span class="text-slate-400 text-xs">29 августа 2026 г., 18:42</span></p>
+            <p class="text-slate-600 text-sm mt-0.5">Отличная история! Сама начинала с вёрстки в блокноте 😄</p>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <div class="w-9 h-9 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold shrink-0">АС</div>
+          <div>
+            <p class="text-sm"><b>Алексей С.</b> <span class="text-slate-400 text-xs">29 августа 2026 г., 20:15</span></p>
+            <p class="text-slate-600 text-sm mt-0.5">Подскажи, какие ресурсы использовал для изучения CSS?</p>
+          </div>
+        </div>
+        <div class="flex gap-3 items-start">
+          <div class="w-9 h-9 rounded-full bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold shrink-0">ИВ</div>
+          <div class="w-full">
+            <p class="text-sm"><b>Волков Иван (автор)</b> <span class="text-slate-400 text-xs">29 августа 2026 г., 20:30</span></p>
+            <p class="text-slate-600 text-sm mt-0.5">Спасибо! Алексей, главный источник — MDN и htmlbook.ru, добавил ссылки в отчёт по лабораторной 😉</p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5 flex gap-3 items-start">
+        <div class="w-9 h-9 rounded-full bg-slate-100 text-slate-500 flex items-center justify-center font-bold shrink-0">Вы</div>
+        <div class="flex-1">
+          <textarea class="w-full border border-slate-300 rounded-xl p-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400" rows="2" placeholder="Оставьте комментарий (через GitHub)…"></textarea>
+          <button class="mt-2 bg-slate-900 hover:bg-slate-700 text-white text-sm font-semibold px-5 py-2 rounded-full transition">Войти через GitHub и отправить</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <aside class="space-y-6">
+    <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 text-center">
+      <img src="foto.jpg" class="w-20 h-20 object-cover rounded-full mx-auto ring-4 ring-indigo-100">
+      <h3 class="font-bold mt-3">Волков Иван</h3>
+      <p class="text-xs text-slate-500 mt-1">Fullstack-разработчик, студент КГТУ. Пишу о технологиях простым языком.</p>
+      <a href="#" class="inline-block mt-3 text-indigo-600 font-semibold text-sm hover:text-indigo-700">Все мои посты →</a>
+    </div>
+    <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5">
+      <h3 class="font-bold">Архив</h3>
+      <ul class="mt-3 space-y-1.5 text-sm text-slate-600">
+        <li class="flex justify-between"><span>Август 2026</span><span class="text-slate-400">3</span></li>
+        <li class="flex justify-between"><span>Июль 2026</span><span class="text-slate-400">2</span></li>
+        <li class="flex justify-between"><span>Июнь 2026</span><span class="text-slate-400">1</span></li>
+      </ul>
+    </div>
+    <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5">
+      <h3 class="font-bold">Облако тегов</h3>
+      <div class="mt-3 flex flex-wrap gap-1.5 text-xs">
+        <span class="bg-slate-100 px-2.5 py-1 rounded-full">#html</span>
+        <span class="bg-slate-100 px-2.5 py-1 rounded-full">#css</span>
+        <span class="bg-slate-100 px-2.5 py-1 rounded-full">#кгту</span>
+        <span class="bg-slate-100 px-2.5 py-1 rounded-full">#python</span>
+        <span class="bg-slate-100 px-2.5 py-1 rounded-full">#docker</span>
+        <span class="bg-slate-100 px-2.5 py-1 rounded-full">#github</span>
+      </div>
+    </div>
+  </aside>
+</main>
+
+<footer class="bg-white border-t border-slate-200 py-6 text-center text-sm text-slate-500">
+  © 2026 Блог «Технологии и студенческая жизнь» • Статический генератор Jekyll • Хостинг GitHub Pages, продублирован на Vercel
+</footer>
+
+</body>
+</html>
